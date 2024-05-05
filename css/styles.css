@@ -620,7 +620,7 @@ img {
     margin-bottom: 16px;
 }
 
-.user-comment {
+.form-comment {
     resize: none;
     width: 100%;
     min-height: 120px;
@@ -641,6 +641,10 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4); 
+}
+
+.form-comment:focus {
+    border-color: #4D5AE5;
 }
 
 .form-checkbox-label {
