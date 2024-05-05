@@ -547,6 +547,7 @@ img {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
     background-color: #404BBF;
+    border: none;
 }
 
 .modal-close-btn:hover .modal-close-btn-icon,
@@ -568,7 +569,7 @@ img {
     color: #2e2f42;
 }
 
-.user-name {
+.form-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     font-weight: 400;
@@ -615,6 +616,10 @@ img {
     fill: #4D5AE5;
 }
 
+.form-text-wrapper {
+    margin-bottom: 16px;
+}
+
 .user-comment {
     resize: none;
     width: 100%;
@@ -623,7 +628,6 @@ img {
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 8px 16px;
-    margin-bottom: 20px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
